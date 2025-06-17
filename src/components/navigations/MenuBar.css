@@ -1,8 +1,3 @@
-:root {
-  --blue: #006EFF;
-  --darkBlue: #12417E;
-}
-
 .nav-wrapper {
     margin: auto;
     /* max-width: 1126px; */
@@ -43,7 +38,8 @@
   
 .header li a:hover,
 .header .menu-btn:hover {
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
+    color: var(--secondary);
 }
   
 .header .logo {

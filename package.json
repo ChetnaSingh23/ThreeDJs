@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^10.0.8",
+    "@react-three/fiber": "^9.1.2",
     "@sendgrid/mail": "^8.1.4",
     "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
+    "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bcryptjs": "^2.4.3",
     "cloudinary": "^2.5.1",
@@ -18,12 +20,13 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.8.4",
     "paytmchecksum": "^1.5.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "request": "^2.88.2",
     "sqlite3": "^5.1.7",
+    "three": "^0.176.0",
     "validator": "^13.12.0",
     "web-vitals": "^2.1.4"
   },
@@ -32,7 +35,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-          },
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -51,7 +54,7 @@
       "last 1 safari version"
     ]
   },
-   "devDependencies": {
+  "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1"
   }
 }
